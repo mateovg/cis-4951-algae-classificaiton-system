@@ -1,7 +1,7 @@
 task: classify
 mode: train
 model: yolov8n-cls.pt
-data: /Users/mateovelazquez/repos/school/cis-4951-algae-classificaiton-system/mateo/dataset
+data: /Users/mateovelazquez/repos/school/cis-4951-algae-classificaiton-system/dataset
 epochs: 10
 patience: 50
 batch: 16
@@ -12,7 +12,7 @@ cache: false
 device: null
 workers: 8
 project: null
-name: null
+name: train
 exist_ok: false
 pretrained: true
 optimizer: auto
